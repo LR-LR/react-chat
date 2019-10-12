@@ -4,6 +4,6 @@ This chat is designed using the [ReactJS](https://reactjs.org/) framework and a 
 
 A version with a back-end designed by me using [NodeJS](https://nodejs.org/) and a [MongoDB](https://www.mongodb.com) database will be available after it is completed.
 
-## Try
+## Lien Netlify
 
-Pour essayer le chat dans votre ordinateur, téléchargez ou clonez ce repo et exécuter la commande `npm install` avant de faire `npm start`.
+Pour essayer l'application et voir où j'en suis, voici le lien [Netlify]().
