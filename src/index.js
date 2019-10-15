@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import Dashboard from './Dashboard/dashboard';
 import './index.css';
 import Login from './Login/login';
@@ -23,11 +23,20 @@ firebase.initializeApp({
 
 const routing = (
   <Router>
-    <div id="routing-container">
-      <Route path="/login" component={Login}></Route>
-      <Route path="/signup" component={Signup}></Route>
-      <Route path="/dashboard" component={Dashboard}></Route>
-    </div>
+    <Switch>
+      <Route path="/login">
+        <Login />
+      </Route>
+      <Route path="/signup">
+        <Signup />
+      </Route>
+      <Route path="/dashboard">
+        <Dashboard />
+      </Route>
+      <Route path="/">
+        <Signup />
+      </Route>
+    </Switch>
   </Router>
 );
 
