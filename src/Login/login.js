@@ -30,12 +30,12 @@ class Login extends Component {
         <CssBaseline></CssBaseline>
         <Paper className={classes.paper}>
           <Typography componenet="h1" variant="h5">
-            Log In!
+            Connection
           </Typography>
           <form className={classes.form} onSubmit={(e) => this.submitLogin(e)}>
             <FormControl required fullWidth margin="normal">
               <InputLabel htmlFor="login-email-input">
-                Enter Your Email
+                Entres ton email
               </InputLabel>
               <Input
                 autoComplete="email"
@@ -45,7 +45,7 @@ class Login extends Component {
             </FormControl>
             <FormControl required fullWidth margin="normal">
               <InputLabel htmlFor="login-password-input">
-                Enter Your Password
+                Entres ton mot de passe
               </InputLabel>
               <Input
                 type="password"
@@ -59,7 +59,7 @@ class Login extends Component {
               variant="contained"
               color="primary"
               className={classes.submit}>
-              Log In
+              Connexion
             </Button>
           </form>
           {this.state.loginError ? (
@@ -67,17 +67,17 @@ class Login extends Component {
               className={classes.errorText}
               component="h5"
               variant="h6">
-              Incorrect Login Information
+              Informations de connection incorrectes
             </Typography>
           ) : null}
           <Typography
             component="h5"
             variant="h6"
             className={classes.noAccountHeader}>
-            Don't have An Account?
+            Tu n'as pas de compte ?!
           </Typography>
           <Link className={classes.signUpLink} to="/signup">
-            Sign Up!
+            Inscris-toi !
           </Link>
         </Paper>
       </main>

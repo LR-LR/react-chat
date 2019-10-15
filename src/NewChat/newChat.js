@@ -28,14 +28,14 @@ class NewChat extends Component {
         <CssBaseline></CssBaseline>
         <Paper className={classes.paper}>
           <Typography component="h1" variant="h5">
-            Send A Message!
+            Envoies un message
           </Typography>
           <form
             className={classes.form}
             onSubmit={(e) => this.submitNewChat(e)}>
             <FormControl fullWidth>
               <InputLabel htmlFor="new-chat-username">
-                Enter Your Friend's Email
+                L'adresse mail de ton ami
               </InputLabel>
               <Input
                 required
@@ -46,7 +46,7 @@ class NewChat extends Component {
             </FormControl>
             <FormControl fullWidth>
               <InputLabel htmlFor="new-chat-message">
-                Enter your message
+                Entres ton message
               </InputLabel>
               <Input
                 required
@@ -60,7 +60,7 @@ class NewChat extends Component {
               variant="contained"
               color="primary"
               type="submit">
-              Submit
+              Envoyer
             </Button>
           </form>
         </Paper>

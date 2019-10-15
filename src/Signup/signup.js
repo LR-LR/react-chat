@@ -31,12 +31,12 @@ class Signup extends Component {
         <CssBaseline></CssBaseline>
         <Paper className={classes.paper}>
           <Typography component="h1" variant="h5">
-            Sign up !
+            Inscription
           </Typography>
           <form onSubmit={(e) => this.submitSignup(e)} className={classes.form}>
             <FormControl required fullWidth margin="normal">
               <InputLabel htmlFor="signup-email-input">
-                Enter Your Email
+                Entres ton email
               </InputLabel>
               <Input
                 autoComplete="email"
@@ -46,7 +46,7 @@ class Signup extends Component {
             </FormControl>
             <FormControl required fullWidth margin="normal">
               <InputLabel htmlFor="signup-password-input">
-                Create A Password
+                Crées un mot de passe
               </InputLabel>
               <Input
                 type="password"
@@ -55,7 +55,7 @@ class Signup extends Component {
             </FormControl>
             <FormControl required fullWidth margin="normal">
               <InputLabel htmlFor="signup-password-confirmation-input">
-                Confirm Your Password
+                Confirmes ton mot de passe
               </InputLabel>
               <Input
                 type="password"
@@ -68,7 +68,7 @@ class Signup extends Component {
               variant="contained"
               color="primary"
               className={classes.submit}>
-              Submit
+              Inscription
             </Button>
           </form>
           {this.state.signupError ? (
@@ -83,10 +83,10 @@ class Signup extends Component {
             component="h5"
             variant="h6"
             className={classes.hasAccountHeader}>
-            Already have an account?
+            T'as déjà un compte ?
           </Typography>
           <Link className={classes.logInLink} to="/login">
-            Log In!
+            Connectes-toi !
           </Link>
         </Paper>
       </main>

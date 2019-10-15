@@ -25,7 +25,7 @@ class ChatList extends Component {
             color="primary"
             className={classes.newChatBtn}
             onClick={this.newChat}>
-            New Message
+            Nouveau message
           </Button>
           <List>
             {this.props.chats.map((_chat, _index) => {
@@ -85,7 +85,7 @@ class ChatList extends Component {
             color="primary"
             onClick={this.newChat}
             className={classes.newChatBtn}>
-            New Message
+            Nouveau message
           </Button>
           <List></List>
         </main>

@@ -18,7 +18,7 @@ class ChatTextBox extends Component {
     return (
       <div className={classes.chatTextBoxContainer}>
         <TextField
-          placeholder="Type your message..."
+          placeholder="Écris ton message"
           onKeyUp={(e) => this.userTyping(e)}
           id="chattextbox"
           className={classes.chatTextBox}

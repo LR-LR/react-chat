@@ -45,7 +45,7 @@ class Dashboard extends Component {
             newChatSubmitFn={this.newChatSubmit}></NewChat>
         ) : null}
         <Button className={classes.signOutBtn} onClick={this.signOut}>
-          Sign Out
+          Déconnexion
         </Button>
       </div>
     );
