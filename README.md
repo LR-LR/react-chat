@@ -6,4 +6,4 @@ A version with a back-end designed by me using [NodeJS](https://nodejs.org/) and
 
 ## Lien Netlify
 
-Pour essayer l'application et voir où j'en suis, voici le lien [Netlify]().
+Pour essayer l'application et voir où j'en suis, voici le lien [Netlify](https://sharp-noether-de8968.netlify.com/).
